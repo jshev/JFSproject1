@@ -1,0 +1,89 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewEmpsServlet</servlet-name>
+    <servlet-class>ViewEmpsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewEmpsServlet</servlet-name>
+    <url-pattern>/ViewEmpsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateEmpServlet</servlet-name>
+    <servlet-class>UpdateEmpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateEmpServlet</servlet-name>
+    <url-pattern>/UpdateEmpServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddRequestServlet</servlet-name>
+    <servlet-class>AddRequestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddRequestServlet</servlet-name>
+    <url-pattern>/AddRequestServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewEmpRequestsServlet</servlet-name>
+    <servlet-class>ViewEmpRequestsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewEmpRequestsServlet</servlet-name>
+    <url-pattern>/ViewEmpRequestsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewPendRequestsServlet</servlet-name>
+    <servlet-class>ViewPendRequestsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewPendRequestsServlet</servlet-name>
+    <url-pattern>/ViewPendRequestsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ApproveRequestServlet</servlet-name>
+    <servlet-class>ApproveRequestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ApproveRequestServlet</servlet-name>
+    <url-pattern>/ApproveRequestServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DenyRequestServlet</servlet-name>
+    <servlet-class>DenyRequestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DenyRequestServlet</servlet-name>
+    <url-pattern>/DenyRequestServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewResRequestsServlet</servlet-name>
+    <servlet-class>ViewResRequestsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewResRequestsServlet</servlet-name>
+    <url-pattern>/ViewResRequestsServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
