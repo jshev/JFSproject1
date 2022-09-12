@@ -72,13 +72,13 @@ public class Login {
 
     @Override
     public String toString() {
-        return "Login{" +
-                "loginId=" + loginId +
-                ", username='" + username + '\'' +
+        return "Login |" +
+                " loginId: " + loginId +
+                ", username: '" + username + '\'' +
                 //", password='" + password + '\'' +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", role='" + role + '\'' +
-                '}';
+                ", name: '" + name + '\'' +
+                ", email: '" + email + '\'' +
+                ", role: '" + role + '\'' +
+                '|';
     }
 }

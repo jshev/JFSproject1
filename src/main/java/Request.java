@@ -63,12 +63,12 @@ public class Request {
 
     @Override
     public String toString() {
-        return "Request{" +
-                "requestId=" + requestId +
-                ", submitter='" + submitter + '\'' +
-                ", description='" + description + '\'' +
-                ", amount=" + amount +
-                ", status='" + status + '\'' +
-                '}';
+        return "Request |" +
+                " requestId: " + requestId +
+                ", submitter: '" + submitter + '\'' +
+                ", description: '" + description + '\'' +
+                ", amount: " + amount +
+                ", status: '" + status + '\'' +
+                '|';
     }
 }

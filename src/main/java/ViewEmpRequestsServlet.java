@@ -29,11 +29,21 @@ public class ViewEmpRequestsServlet extends HttpServlet {
 
         Login login = loginDao.getLoginById(loginId);
 
+        out.println("<head>");
+        out.println("<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css\"\n" +
+                "          integrity=\"sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N\" crossorigin=\"anonymous\">\n");
+        out.println("</head>");
+        out.println("<body>");
+
         List<Request> requests = requestDao.getRequestsBySubmitter(login.getName());
         for (Request request1: requests) {
-            out.println("<div>");
+            out.println("<div class=\"card\">");
+            out.println("<div class=\"card-body\">\n");
             out.println(request1);
             out.println("</div>");
+            out.println("</div>");
         }
+
+        out.println("</body>");
     }
 }
